@@ -1,0 +1,85 @@
+
+.navigation
+{
+    display         :flex;
+    flex-direction  : row;
+    background-color: rgb(43, 61, 50);
+    flex: 0 0 auto;
+    top: 0;
+    position: sticky;
+}
+
+.navigation a 
+{
+    flex            : 0 0 auto;
+    padding         : 0.5em 1.0em;
+    color           : white;
+    font-family     : 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration : none;
+    display: block;
+}
+
+.navigation .space 
+{
+    flex: 1 1 auto;
+}
+
+.navigation a:hover
+{
+    background-color: rgb(23, 33, 27);
+    color           : white;
+}
+
+.container {
+    display:flex;
+    flex: 1 1 100%;
+    font-family: 'Gill Sans', Calibri, sans-serif;
+    color:black;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 3em 5em 3em;
+  }
+
+.gallery
+{
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap:wrap;
+    
+}
+
+.gallery .item
+{
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.gallery .item .caption
+{
+    color: black;
+}
+
+.gallery .item .image
+{
+    min-height: 20em;
+    height: 30vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.25em;
+    
+}
+
+.gallery .item .inner 
+{
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+    border-radius: 0.5em;
+    padding: 0.5em; 
+    box-shadow: 2px 1px 5px #999999;
+    margin: 0.5em;
+    background-color: white;
+}

@@ -1,0 +1,30 @@
+/*
+    Базовые стили для дальнейшего использования 
+    Черкас Алиса
+    05.03.2023
+*/
+
+*
+{
+    border: 0;
+    padding: 0;
+    margin: 0;
+ /*   border: 1px dotted black;
+    margin: 1px;*/
+}
+
+html
+{
+    display: flex;
+    min-height: 100%;
+    background-color: #eeeeff;
+}
+
+body
+{
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+}
+
+
